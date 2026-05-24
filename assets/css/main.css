@@ -2694,6 +2694,29 @@ section,
   }
 }
 
+.portfolio-details-link {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.6);
+  border-radius: 50%;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transition: 0.3s;
+}
+
+.portfolio-details-link:hover {
+  background: rgba(0,0,0,0.85);
+  transform: scale(1.1);
+}
+
+.portfolio-details-link i {
+  font-size: 26px;
+  color: white;
+}
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
@@ -2854,30 +2877,3 @@ section,
   /* Add your styles here */
 }
 
-.portfolio-details-link i {
-  font-size: 28px;   /* puedes subirlo a 32px si quieres más grande */
-}
-
-.portfolio-details-link {
-  width: 55px;
-  height: 55px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0,0,0,0.6);
-  border-radius: 50%;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  transition: 0.3s;
-}
-
-.portfolio-details-link:hover {
-  background: rgba(0,0,0,0.85);
-  transform: scale(1.1);
-}
-
-.portfolio-details-link i {
-  font-size: 26px;
-  color: white;
-}
